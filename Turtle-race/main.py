@@ -7,7 +7,6 @@ user_choice= my_screen.textinput(title="Enter your bet",prompt="Which color of t
 colors=[ "red", "orange", "yellow", "green","blue", "purple"]
 ypos=[-100,-60,-20,20,60,100]
 all_turtles=[]
-speed=[]
 for index in range(0,6):
     tup=turtle.Turtle() 
     tup.penup()
