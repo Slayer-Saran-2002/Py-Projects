@@ -38,25 +38,10 @@ while game_on:
         game_on=False
         score_board.gameover()
 
-    for body in snake.segments:
-        if body == snake.snake_head:
-            continue
+    for body in snake.segments[1:]:
         if snake.snake_head.distance(body)<10:
             game_on = False
             score_board.gameover()
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
